@@ -68,44 +68,9 @@ Runs tests checking whether various points fall inside or outside a given triang
 ## Resources
 
 - [Wikipedia — Fixed-point arithmetic](https://en.wikipedia.org/wiki/Fixed-point_arithmetic)
+- [CPPreference - operator overloading](https://en.cppreference.com/cpp/language/operators)
 - General documentation on operator overloading and the Orthodox Canonical Form in C++98
 - General documentation on point-in-triangle tests (Binary Space Partitioning)
 
 **AI usage:** AI assistance was used to help draft and structure this README file (organizing sections, describing each exercise's behavior and usage) based on the actual project source code and the official subject requirements. No AI-generated code was used in the implementation of the exercises themselves; all class design and logic were written and understood by the author.
 
-## Project Structure
-
-```
-.
-├── ex00/
-│   ├── Makefile
-│   ├── includes/
-│   │   └── Fixed.hpp
-│   └── src/
-│       ├── Fixed.cpp
-│       └── main.cpp
-├── ex01/
-│   ├── Makefile
-│   ├── includes/
-│   │   └── Fixed.hpp
-│   └── src/
-│       ├── Fixed.cpp
-│       └── main.cpp
-├── ex02/
-│   ├── Makefile
-│   ├── includes/
-│   │   └── Fixed.hpp
-│   └── src/
-│       ├── Fixed.cpp
-│       └── main.cpp
-└── ex03/
-    ├── Makefile
-    ├── includes/
-    │   ├── Fixed.hpp
-    │   └── Point.hpp
-    └── src/
-        ├── BSP.cpp
-        ├── Fixed.cpp
-        ├── Point.cpp
-        └── main.cpp
-```
